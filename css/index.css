@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 3;
+}
+
+.post-container {
+  margin-top: 90rem;
+}
+.post-item {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 30px;
+  text-decoration: none;
+  color: black;
+}
+.post-link {
+  text-decoration: none;
+  color: inherit; /* Menggunakan warna teks yang diwarisi */
+}
+.post-link:hover {
+  text-decoration: none;
+  color: inherit; /* Menggunakan warna teks yang diwarisi */
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  background-color: #ddd;
+  border-radius: 50%;
+  border: rgb(27, 125, 238);
+}
+.profile-pic img {
+  width: 40px;
+  height: 40px;
+  background-color: #ddd;
+  border-radius: 50%;
+  border: rgb(27, 125, 238);
+}
+
+.username-location {
+  margin-left: 10px;
+}
+
+.username {
+  font-weight: bold;
+  display: block;
+}
+
+.location {
+  font-size: 0.9em;
+  color: #888;
+}
+
+.post-image img {
+  width: 100%;
+  height: auto;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-around;
+  size: 20px;
+  padding: 20px;
+  margin-right: 2px;
+  padding-left: 3px;
+  margin-bottom: 10px;
+}
+
+.like,
+.comment {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.post-likes {
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.post-description {
+  padding: 10px;
+}
+
+.hashtag {
+  color: #00376b;
+  cursor: pointer;
+}
+
+.post-comments {
+  padding: 0 10px;
+  font-size: x-small;
+}
+
+.comment-section {
+  padding: 0 10px;
+  font-size: x-small;
+}
+
+.comment-count {
+  color: #888;
+  cursor: pointer;
+}
+
+.comment {
+  margin-top: 10px;
+}
+
+.comment-user {
+  font-weight: bold;
+}
+
+.post-time {
+  padding: 10px;
+  font-size: 0.9em;
+  color: #888;
+}
